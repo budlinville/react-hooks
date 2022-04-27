@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const UseState = () => {
+	let [count, setCount] = useState(0);
+
 	return (
 		<>
-			UseState
+			<h1>State Counter</h1>
+			<button onClick={ () => setCount(c => ++c) }>CLICK ME</button>
+			{count}
 		</>
 	);
 };

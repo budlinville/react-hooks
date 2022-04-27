@@ -15,7 +15,8 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  border: 1ps solid red;
+  width: 100%;
 }
 
 #headerItem {
